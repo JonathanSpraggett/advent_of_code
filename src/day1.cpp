@@ -1,14 +1,10 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-using namespace std;
+#include <advent_of_code/day1.h>
 
 
-
-int main() {
+int day1() {
     int sum = 0;
     string myText;
-    ifstream MyReadFile("input.txt");
+    ifstream MyReadFile("input/input_day1.txt");
     string list1[] = {"one", "two", "three", "four", "five", "six",
                      "seven", "eight", "nine","1", "2",
                       "3", "4", "5", "6","7","8","9"};
@@ -50,8 +46,7 @@ int main() {
         }
         sum += val_1*10+val_2;
     }
-    cout << sum << endl;
     // Close the file
     MyReadFile.close();
-    return 0;
+    return sum;
 }
