@@ -11,6 +11,8 @@ add_executable(advent_of_code
         src/day1.cpp
         src/day2.cpp
         src/common.cpp
+        src/day3.cpp
+
 )
 target_include_directories(advent_of_code PUBLIC include)
 
