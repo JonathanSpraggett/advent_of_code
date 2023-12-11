@@ -6,11 +6,11 @@
 #define DAY3_H
 
 
-#include <iostream>
 #include <fstream>
 #include <string>
-
-using namespace std;
+#include <vector>
+#include <sstream>
+#include <advent_of_code/common.h>
 
 int day3();
 #endif //DAY3_H
