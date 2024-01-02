@@ -3,6 +3,6 @@
 #include <advent_of_code/day2.h>
 #include <advent_of_code/day3.h>
 int main() {
-    print(day3());
+    print(day3_part2());
     return 0;
 }

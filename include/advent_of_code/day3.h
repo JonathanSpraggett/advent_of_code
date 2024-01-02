@@ -10,7 +10,11 @@
 #include <string>
 #include <vector>
 #include <sstream>
+#include <iostream>
+#include <algorithm>
+
 #include <advent_of_code/common.h>
 
-int day3();
+int day3_part1();
+int day3_part2();
 #endif //DAY3_H
