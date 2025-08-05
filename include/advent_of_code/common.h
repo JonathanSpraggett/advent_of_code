@@ -8,7 +8,8 @@
 
 #include <iostream>
 #include <string>
-
+#include <vector>
+#include <cmath>
 using namespace std;
 
 template <typename T, typename... Tail>
@@ -28,5 +29,16 @@ void print(const Tail&... tail) {
 
 string trim(const string&);
 
+bool containsDuplicate(vector<int>& nums);
+bool isAnagram(string s, string t);
+vector<int> twoSum(vector<int>& nums, int target);
+vector<int> twoSum2(vector<int>& nums, int target);
+int bin_search(vector<int>& nums, int target, int index);
+vector<vector<string>> groupAnagrams(vector<string>& strs);
+vector<int> topKFrequent(vector<int>& nums, int k);
+string encode(vector<string>& strs);
 
+// Decodes a single string to a list of strings.
+vector<string> decode(string s) ;
+vector<int> productExceptSelf(vector<int>& nums) ;
 #endif
